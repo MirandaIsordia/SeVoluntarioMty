@@ -1,0 +1,18 @@
+h1 {
+    color: palevioletred;
+    text-align: center;
+}
+
+#estudiante {
+    color: rgb(35, 160, 72);
+    font-family: 'Lucida Sans'
+}
+
+.parrafotexto1y2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(190, 81, 81)
+}
+
+img {
+    border: 3px; color:rgb(190, 81, 81)
+}

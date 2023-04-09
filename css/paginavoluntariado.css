@@ -1,0 +1,66 @@
+body {
+    background-color: #ffffff;
+}
+
+.d-block { padding-left: 80px;
+    padding-right: 80px;
+   ; width: 100px; height: 450px;}
+
+h1 {
+    color: #168AAD;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: system-ui, apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+}
+
+
+#fondo {
+    background-color: #ffffff; float: right; width: 100px; height: 250px;
+}
+
+#partecambio { text-align: center ; font-family:'Segoe UI'; font-size:xx-large; color:#1E6091; animation-duration: 3s; animation-name: slidein;}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.hr {color: #757c5f;}
+
+
+.parrafo {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;margin: 30px;}
+
+.subtema {border: 1px ; text-align: left;color: #184E77;}
+.subtema2 {color: #184E77;border-collapse: collapse; text-align: center;}
+
+.row {
+    font-family: serif;
+    color: #9c6644;
+}
+
+div {
+    background-color: #ffffff
+}
+#fotoiniciolista {float: right; width: 300px; height: 200px;}
+
+
+.footer {
+    background-color: #ccd5ae;
+    width: 100%;
+    height: 150px;
+    bottom: 0; 
+    position:relative;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    text-align: center;
+    font-size: medium;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#footer1 {background-color: #ccd5ae; font-family: "Segoe UI";}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap: CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Sé Voluntario Monterrey</title>
+  <link rel="stylesheet" href="css/contacto.css">
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap: CSS -->
+<link class="imagen" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<body>
+  <!-- Barra navegacion -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"> <img src="img/Se voluntario Mty.png" alt="Bootstrap" width="110"
+          height="44"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="proximasactividades.html">Próximas actividades</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Organizaciones
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="TECHO.html">TECHO</a></li>
+              <li><a class="dropdown-item" href="caritasmty.html">Cáritas de Monterrey</a></li>
+              <li><a class="dropdown-item" href="#">Adopta pelu2 Mty</a></li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Voluntariado UANL</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="Contacto.html">Contáctanos</a>
+          </li>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Titulo y texto -->
+  <h1>Sé voluntario Monterrey</h1>
+  <hr>
+  <!--texto y formatoo info-->
+  <div class="palfondo">
+    <div class="infocontacto">
+      <h2> Contáctanos ♥!</h2>
+      <hr> <br> <br>
+
+      <img src="img/IMAGENCONTACTO.png" id="imagencontacto" class="img-fluid" alt="..."> <br> <br>
+      ¿Tienes sugerencias para la mejora de nuestra página? <br>
+      ¿Cuentas con algun programa u organización que quieras compartir a la ciudad?
+    </div>
+
+
+    <!--formato toma info-->
+    <div class="container">
+      <div class="row border">
+        <div class="col-4">
+          Nombre
+        </div>
+        <div class="col-6 border">
+          <input type="text" id="correo" class="form-control" placeholder="Ej. Juanito">
+        </div>
+      </div>
+      <div class="row border">
+        <div class="col-4">
+          Correo electrónico
+        </div>
+        <div class="col-6 border">
+          <input type="text" id="correo" class="form-control" placeholder="nombre@gmail.com">
+        </div>
+      </div>
+      <div class="row border">
+        <div class="col-4">
+          Mensaje
+        </div>
+        <div class="col-6 border">
+          <input type="text" id="correo" class="form-control" placeholder="Escribe tu mensaje aqui.">
+        </div>
+      </div>
+      <div class="row border">
+        <div class="col-4"></div>
+        <div class="col-6">
+          <button class="btn btn-primary" onclick="enviomensaje();"> ENVIAR</button>
+        </div>
+      </div>
+    </div>
+    <br> <br>
+
+    <div id="divresultado">
+    </div>
+  </div>
+  </div>
+  <!--FOOTER-->
+  <footer class="footer"> <i>Únete a las actividades de fin de año! haz click <a href="proximasactividades.html">aquí
+      </a>para visualizar los próximos programas. </i><br>
+    Av. Juárez S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06050 Ciudad de México, CDMX <br>
+    sevoluntariomty@gmail.com <br>
+    <img src="img/iconollamada.png" width="30px" height="30px"> +52-81-2411-8056
+
+    <br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="footer1"> <a href="index.html">Inicio </a></div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="footer1"><a href="Contacto.html">Contacto </a></div>
+      </div>
+  </footer>
+
+  <!-- Área para código JavaScript -->
+  <script src="js/contacto.js">
+
+  </script>
+
+</body>
+
+</html>

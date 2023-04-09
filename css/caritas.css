@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+#nose {
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #168AAD;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: system-ui, apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+}
+
+#TECHOheader {
+    ;
+    width: 400px;
+}
+
+#caritasparrafo1 {
+    padding: 30px;
+}
+
+#caritasparrafo2 {}
+
+.footer {
+    background-color: #ccd5ae;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: medium;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#footer1 {
+    background-color: #ccd5ae;
+    font-family: "Segoe UI";
+}
+
+#caritasanimacion {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: xx-large;
+    color: #1E6091;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
